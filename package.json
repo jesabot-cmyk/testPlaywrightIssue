@@ -1,0 +1,12 @@
+{
+  "name": "playwright-route-times-repro",
+  "version": "1.0.0",
+  "description": "Minimal repro for Playwright page.route() with { times: 1 } and route.abort() flakiness",
+  "scripts": {
+    "test": "playwright test --trace on",
+    "test:repeat": "playwright test --repeat-each=10"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}
